@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 90vh;
+    height: 100px;
+}
+.main{
+    /* margin: 20px 40px 20px 40px;
+    border: 1px solid green;
+    width: 100vmax; */
+    max-height: 100vh;  
+}
+
+.main1{
+    float: left; width: 40%; height: 110vh;
+    background-image: url("one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin: 30px 30px 10px 37px;
+}
+.get{
+    margin: 20px 30px 30px 37px;
+    text-align: left;
+    font-size: 18px;
+}
+.hey{
+    margin: 80px 30px 30px 30px;
+    font-size: 18px;
+}
+.bunk{
+    margin: 290px 0px 0px 0px;
+    font-size: 90px;
+    color: #808080;
+    font-weight: 2px;
+}
+
+.main2{
+    float: left; width: 60%; height: 100vh;
+   margin: auto;
+   justify-content: center;
+   text-align: center; 
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 5px;
+}
+.account{
+    margin: 20px;
+
+}
+
+.input-name{
+    margin-bottom: 10px;
+
+}
+
+.input-box{
+    padding: 10px;
+    margin: 5px;
+}
+.email-address{
+    border-radius: 15px;
+    border-color: #f0f0;
+    height: 50px;
+    width: 470px; 
+    padding: 10px;
+    background-color: #f0f0f5;
+}
+.name{
+    border-radius: 15px;
+    border-color: #f0f0;
+    height: 50px;
+    width: 470px; 
+    padding: 10px;
+    background-color: #f0f0f5;
+}
+.password{
+    border-radius: 15px;
+    border-color: #f0f0;
+    height: 50px;
+    width: 470px; 
+    padding: 10px;
+    background-color: #f0f0f5;
+}
+.sign{
+    border-radius: 15px;
+    border-color: #f0f0;
+    height: 50px;
+    width: 470px; 
+    text-align: center;
+   margin-top: 15px;
+   background-color: #f0f0f5;
+}
+.foot{
+    align-items: center;
+    margin: 20px 10px 10px 345px;
+    align-self: center;
+    align-content: center;
+}
+.google{
+    float: left; width: 5%; height: 3vh;
+    margin: 10px 15px 10px 10px;
+}
+.facebook{
+    float: left; width: 5%; height: 3vh;
+    margin: 10px 10px 10px 10px;
+}
+.twitter{
+    float: left; width: 5%; height: 3vh;
+    margin: 10px 10px 10px 15px;
+
+}
+
+
+.img1{
+    color: #000;
+}
+.ft{
+    color: #000;
+}
+ 
+/* .signup{
+    text-align: center;
+    text-decoration: wavy;
+    margin: 5px;
+} */
+
+/* .signup {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0e6856;
+  }
+  
+  .signup::before,
+  .signup::after {
+    content: '';
+    flex: 0.5;
+    border-bottom: 1px solid #000;
+  }
+  
+  .signup:not(:empty)::before {
+    margin-right: .25em;
+    line-height: 0.1em; 
+  }
+  
+  .signup:not(:empty)::after { */
+    /* margin-left: .25em;
+  }
+ */
+
+ .signup {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #0e6856;
+	margin: 8px 0px;
+}
+.signup::before,
+.signup::after {
+	content: "";
+	flex-grow: 1;
+	background: black;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 4px;
+}
+
+  @media screen and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        max-height: 50vh;
+        height: 500px;
+    }
+    .main{
+        /* margin: 20px 40px 20px 40px;
+        border: 1px solid green;
+        width: 100vmax; */
+        max-height: 50vh;  
+    }
+    
+    .main1{
+        float: left; width: 40%; height: 100vh;
+        background-image: url("one.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .get{
+        margin: 10px 10px 10px 17px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .hey{
+        margin: 100px 10px 10px 10px;
+        font-size: 18px;
+    }
+    .bunk{
+        margin: 260px 0px 0px 0px;
+        font-size: 90px;
+        color: #808080;
+        font-weight: 2px;
+    }
+    
+    .main2{
+        float: left; width: 60%; height: 100vh;
+       margin: auto;
+       justify-content: center;
+       text-align: center; 
+    }
+    
+    .welcome{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .account{
+        margin: 20px;
+    
+    }
+    
+    .input-name{
+        margin-bottom: 10px;
+    
+    }
+    
+    .input-box{
+        padding: 10px;
+        margin: 5px;
+    }
+    .email-address{
+        border-radius: 15px;
+        height: 30px;
+        width: 210px; 
+        padding: 10px;
+        background-color: #f0f0f5;
+    }
+    .name{
+        border-radius: 15px;
+        height: 30px;
+        width: 210px; 
+        padding: 10px;
+        background-color: #f0f0f5;
+    }
+    .password{
+        border-radius: 15px;
+        height: 30px;
+        width: 210px; 
+        padding: 10px;
+        background-color: #f0f0f5;
+    }
+    .sign{
+        border-radius: 15px;
+        height: 30px;
+        width: 210px; 
+        text-align: center;
+       margin-top: 15px;
+       background-color: #f0f0f5;
+    }
+    .img1{
+        color: #000;
+    }
+    .ft{
+        color: #000;
+    }
+     
+    /* .signup{
+        text-align: center;
+        text-decoration: wavy;
+        margin: 5px;
+    } */
+    
+    .signup {
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .signup::before,
+      .signup::after {
+        content: '';
+        flex: 0.5;
+        border-bottom: 1px solid #000;
+      }
+      
+      .signup:not(:empty)::before {
+        margin-right: .25em; 
+      }
+      
+      .signup:not(:empty)::after {
+        margin-left: .25em;
+      }
+      
+      .logo{
+        margin: 30px 30px 10px 37px;
+    }
+      
+  
+  
